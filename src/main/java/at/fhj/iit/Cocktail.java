@@ -12,6 +12,7 @@ public class Cocktail extends Drink {
      *
      * @param name name of the drink
      */
+
     public Cocktail(String name) {
         super(name);
     }
@@ -67,6 +68,7 @@ public class Cocktail extends Drink {
      * Getter for the volume of the cocktail
      * @return Volume in liter
      */
+
     @Override
     public double getVolume() {
         double volume=0;

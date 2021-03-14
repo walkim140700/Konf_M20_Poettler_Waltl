@@ -8,6 +8,7 @@ public class SimpleDrink extends Drink{
     /**
      * uses only one liquid
      */
+
     protected Liquid l;
 
     /**
@@ -16,6 +17,7 @@ public class SimpleDrink extends Drink{
      * @param name name of drink
      * @param l only one liquid in drink, because it's a simple drink an not e.g. a cocktail
      */
+
     SimpleDrink(String name, Liquid l){
         super(name);
         this.l = l;
@@ -26,6 +28,7 @@ public class SimpleDrink extends Drink{
      *
      * @return the volume of drink in litre
      */
+
     @Override
     public double getVolume() {
         return l.getVolume();

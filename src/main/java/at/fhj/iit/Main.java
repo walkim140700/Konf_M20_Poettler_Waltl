@@ -22,5 +22,16 @@ public class Main {
         System.out.println(sexOnTheBeach.toString());
         System.out.println("Contains "+sexOnTheBeach.getVolume()+
                 "L of liquid and has an alcohol percentage of "+sexOnTheBeach.getAlcoholPercent()+"%");
-    }
+
+
+        Liquid Tequilla = new Liquid("Tequilla" , 0.02, 40);
+        Shots s = new Shots("Tequilla" ,Tequilla, false, " Olmeca");
+        System.out.println("Shots " + "type Liquer " + s.name +" brand " + s.getBrand());
+        System.out.println("Alcohol percentage " + s.getAlcoholPercent() +"%");
+        System.out.println("Centiliter " + s.getVolume() + " l" );
+        System.out.println("With Ice cubes " + s.getIceCubes());
+
+
+
+}
 }

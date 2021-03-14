@@ -26,6 +26,7 @@ public class Liquid {
      * @param volume volume of liquid
      * @param alcoholPercent of liquid
      */
+
     public Liquid(String name, double volume, double alcoholPercent) {
         this.name = name;
         checkVolume(volume);
@@ -90,6 +91,7 @@ public class Liquid {
      *
      * @param alcoholPercent new alcoholPercent
      */
+
     public void setAlcoholPercent(double alcoholPercent) {
         this.alcoholPercent = alcoholPercent;
     }
