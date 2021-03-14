@@ -1,1 +1,1 @@
-# Konf_X20_Poettler_Waltl
+# Konf_M20_Poettler_Waltl
