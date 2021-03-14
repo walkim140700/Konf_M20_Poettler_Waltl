@@ -93,4 +93,9 @@ public class Liquid {
     public void setAlcoholPercent(double alcoholPercent) {
         this.alcoholPercent = alcoholPercent;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
