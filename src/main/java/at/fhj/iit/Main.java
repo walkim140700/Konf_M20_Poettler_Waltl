@@ -30,7 +30,7 @@ public class Main {
         System.out.println("Shots " + "type Liquer " + s.name +" brand " + s.getBrand());
         System.out.println("Alcohol percentage " + s.getAlcoholPercent() +"%");
         System.out.println("Centiliter " + s.getVolume() + " l" );
-        System.out.println("With Ice cubes " + s.getIceCubes());
+        System.out.println("Are the shots with ice cubes " + s.getIceCubes());
 
 
 
