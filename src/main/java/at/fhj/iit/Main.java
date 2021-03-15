@@ -24,6 +24,7 @@ public class Main {
                 "L of liquid and has an alcohol percentage of "+sexOnTheBeach.getAlcoholPercent()+"%");
 
 
+        System.out.println();
         Liquid Tequilla = new Liquid("Tequilla" , 0.02, 40);
         Shots s = new Shots("Tequilla" ,Tequilla, false, " Olmeca");
         System.out.println("Shots " + "type Liquer " + s.name +" brand " + s.getBrand());
