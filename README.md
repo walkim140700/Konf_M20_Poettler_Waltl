@@ -13,7 +13,7 @@ Shots is a java subclass of SimpleDrinks which only contains liqueurs.
 - *getBrand()* returns which brand the alcohol is.
 - *getIceCubes()* returns if the shots have iceCubes in it. 
 
-## Cocktail(Kilian Waltl ##
+## Cocktail(Kilian Waltl) ##
 
 Cocktail is a subclass of Drink which can contain a virtually infinite number of different liquids.
 
