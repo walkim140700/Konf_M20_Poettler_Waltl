@@ -35,15 +35,8 @@ public class Shots extends SimpleDrink {
         return brand;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
     public boolean getIceCubes() {
         return iceCubes;
     }
 
-    public void setIceCubes(boolean iceCubes) {
-        this.iceCubes = iceCubes;
-    }
 }
