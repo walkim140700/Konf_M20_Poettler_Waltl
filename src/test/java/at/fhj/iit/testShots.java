@@ -28,23 +28,23 @@ public class testShots {
     @Test
     @DisplayName("Tests what brand will return")
         void testWhatBrand(){
-            assertEquals("Omeca", shotDrink.brand);
+            assertEquals("Omeca", shotDrink.getBrand());
         }
 
     @Test
-    @DisplayName("Check if the return of the Ice cubes is correct")
+    @DisplayName("Tests if the return of the Ice cubes is correct")
          void testBooleanIceCubes () {
-        assertTrue(shotDrink.iceCubes);
+        assertTrue(shotDrink.getIceCubes());
     }
 
     @Test
-    @DisplayName("Checks if the Drinks is alkohloic")
+    @DisplayName("Tests if the Drinks is alkohloic")
         void testIsItAlkohloic(){
         assertTrue(shotDrink.isAlcoholic());
     }
 
     @Test
-    @DisplayName("Check if the return of Volume is correct")
+    @DisplayName("Ttests if the return of Volume is correct")
         void testVolume (){
             assertEquals(0.02,shotDrink.getVolume());
     }
@@ -62,7 +62,7 @@ public class testShots {
     }
 
     @Test
-    @DisplayName("Values of Shots")
+    @DisplayName("Tests the Values of Shots")
         void testValues(){
         assertTrue(shotDrink.iceCubes);
         assertEquals("Omeca", shotDrink.brand);

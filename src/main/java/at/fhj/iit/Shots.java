@@ -8,7 +8,7 @@ public class Shots extends SimpleDrink {
 
 
     /**
-     * name of the liquid brand
+     * name of the liquid brand and if the shot has ice cubes.
      */
 
     protected String brand;
@@ -18,6 +18,10 @@ public class Shots extends SimpleDrink {
 
     /**
      * creates a shot drink objekt with one liqure
+     * @param name of the drink
+     * @param l name of the liquid that is in the drink
+     * @param iceCubes if the drink has icecubes or no icecubes
+     * @param brand name of the brand that the liquir is.
      */
 
     public Shots(String name, Liquid l, boolean iceCubes, String brand) {
@@ -28,12 +32,17 @@ public class Shots extends SimpleDrink {
     }
 
     /**
-     * getter for what brand is used in the shots and if it contains ice cubes
+     * @return the name of the liquid brand
      */
 
     public String getBrand() {
         return brand;
     }
+
+    /**
+     *
+     * @return true or false if there are ice cubes in the shot
+     */
 
     public boolean getIceCubes() {
         return iceCubes;
