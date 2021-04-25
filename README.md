@@ -31,10 +31,10 @@ Cocktail is a subclass of Drink which can contain a virtually infinite number of
 ## testShots (Matthias Pöttler) ##
 
 To create test in Java with jUnit everything you need to create a void test method wit an **@Test** above it.  The @BeforeEach method creates for every **@Test** method a new shot instance. The **@AfterEach** set the instance to null.
-You should try to come as close to the 100% as possible.
+You should try to come as close to the **100%** as possible.
 
 **Testcoverage testShots:**
-*Class 	100 %*
-*Method 	100 %*
-*Line 	100 %*
+-Class 	100 %
+-Method 	100 %
+-Line 	100 %
 
