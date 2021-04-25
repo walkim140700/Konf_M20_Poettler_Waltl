@@ -27,3 +27,14 @@ Cocktail is a subclass of Drink which can contain a virtually infinite number of
 - *getAlcoholPercent()* returns the alcohol percentage of the cocktail
 - *isAlcoholic()* returns true if the cocktail contains alcohol
 - *toString()* returns a fromatted String containing the name of the cocktail and the name of the liquids it contains
+
+## testShots (Matthias Pöttler) ##
+
+To create test in Java with jUnit everything you need to create a void test method wit an **@Test** above it.  The @BeforeEach method creates for every **@Test** method a new shot instance. The **@AfterEach** set the instance to null.
+You should try to come as close to the 100% as possible.
+
+**Testcoverage testShots:**
+*Class 	100 %*
+*Method 	100 %*
+*Line 	100 %*
+
