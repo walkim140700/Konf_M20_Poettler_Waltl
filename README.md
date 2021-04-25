@@ -39,6 +39,16 @@ You should try to come as close to the **100%** as possible.
 - Method  100 %
 - Line    100 %
 
+## testCocktail (Kilian Waltl) ##
+
+The class testCocktails utilizes jUnit test methods to test every Method that was implemented in the Cocktail class. Given some methods like getLiquid(int index) for example are not tested since those are just delegated methods from Java Lists. With that in mind every other method that has been implemented by myself is being tested and should work as expected.
+
+**Testcoverage testCocktail:**
+
+- Class   100 %
+- Method  100 %
+- Line    100 %
+
 ## JavaDoc informations ##
 
 JavaDoc is an documentation tool that should be used so that you and your colleagues know what your code does.
